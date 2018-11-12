@@ -6,6 +6,7 @@ class Powerlevel9k < Formula
   head "https://github.com/bhilburn/powerlevel9k.git"
   devel do
     url "https://github.com/bhilburn/powerlevel9k/archive/next.tar.gz"
+    version "next"
   end
 
   depends_on "zsh" => "5.1"
