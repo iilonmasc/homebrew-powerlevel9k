@@ -1,7 +1,5 @@
 ## Dependencies
-- zsh --5.6
-- macOS >= 10.11
-
+- zsh --5.1
 
 ## Installation
 First get the homebrew tap and install the formula

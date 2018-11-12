@@ -5,8 +5,7 @@ class Powerlevel9k < Formula
   sha256 "580951e0d13b83bf1e1afd67aa4c109e0a770a13e282904e77ebf8e7416a4461"
   head "https://github.com/bhilburn/powerlevel9k.git"
 
-  depends_on :macos => :el_capitan
-  depends_on "zsh" => "5.6"
+  depends_on "zsh" => "5.1"
 
   def install
     (var/"log/powerlevel9k").mkpath
