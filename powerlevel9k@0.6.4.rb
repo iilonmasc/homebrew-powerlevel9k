@@ -15,7 +15,7 @@ class Powerlevel9kAT064 < Formula
   def caveats; <<~EOS
     If you want to load powerlevel9k in your zsh simply add the following line to your .zshrc:
 
-      source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+      source #{opt_prefix}/powerlevel9k.zsh-theme
 
     EOS
   end

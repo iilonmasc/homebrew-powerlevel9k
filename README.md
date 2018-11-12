@@ -11,7 +11,7 @@ brew install powerlevel9k
 
 Afterwards you need to add the theme to your `.zshrc` file, simply add the following line
 
-`source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme`
+`source /usr/local/opt/powerlevel9k.zsh-theme`
 
 ## Options
--`--HEAD` Install HEAD version from `bhilburn/powerlevel9k/master`
+`--HEAD` Install HEAD version from `bhilburn/powerlevel9k/master`
