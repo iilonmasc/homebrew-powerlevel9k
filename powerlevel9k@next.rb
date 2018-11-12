@@ -1,4 +1,4 @@
-class Powerlevel9kATnext < Formula
+class Powerlevel9k@next < Formula
   desc "A badass zsh theme with more power than a normal earthling"
   homepage "https://github.com/bhilburn/powerlevel9k"
   url "https://github.com/bhilburn/powerlevel9k/archive/next.tar.gz"
