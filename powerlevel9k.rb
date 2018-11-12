@@ -14,19 +14,8 @@ class Powerlevel9k < Formula
   end
 
   def caveats; <<~EOS
-    Copy the example configuration into your home directory:
-      cp #{opt_pkgshare}/examples/chunkwmrc ~/.chunkwmrc
-    Opening chunkwm will prompt for Accessibility API permissions. After access
-    has been granted, the application must be restarted.
-      brew services restart chunkwm
-    This has to be done after every update to chunkwm, unless you codesign the
-    binary with self-signed certificate before restarting
-    Create code signing certificate named "chunkwm-cert" using Keychain Access.app
-      codesign -fs "chunkwm-cert" #{opt_bin}/chunkwm
-    NOTE: options "--with-logging" and "--with-tmp-logging" are deprecated since now
-    chunkwm supports logging through configuration:
-      chunkc core::log_file <stdout | stderr | /path/to/file>
-    NOTE: plugins folder has been moved to #{opt_pkgshare}/plugins
+    If you want to load powerlevel9k in your zsh simply add the following line to your .zshrc:
+      source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
     EOS
   end
 end
