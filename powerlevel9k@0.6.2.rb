@@ -1,4 +1,4 @@
-class Powerlevel9kAt062 < Formula
+class Powerlevel9kAT062 < Formula
   desc "A badass zsh theme with more power than a normal earthling"
   homepage "https://github.com/bhilburn/powerlevel9k"
   url "https://github.com/bhilburn/powerlevel9k/archive/v0.6.2.tar.gz"
