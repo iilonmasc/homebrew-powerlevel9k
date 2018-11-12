@@ -4,6 +4,9 @@ class Powerlevel9k < Formula
   url "https://github.com/bhilburn/powerlevel9k/archive/v0.6.6.tar.gz"
   sha256 "580951e0d13b83bf1e1afd67aa4c109e0a770a13e282904e77ebf8e7416a4461"
   head "https://github.com/bhilburn/powerlevel9k.git"
+  devel do
+    url "https://github.com/bhilburn/powerlevel9k/archive/next.tar.gz"
+  end
 
   depends_on "zsh" => "5.1"
 
@@ -14,9 +17,9 @@ class Powerlevel9k < Formula
 
   def caveats; <<~EOS
     If you want to load powerlevel9k in your zsh simply add the following line to your .zshrc:
-      
+
       source #{opt_prefix}/powerlevel9k.zsh-theme
-    
+
     EOS
   end
 end
