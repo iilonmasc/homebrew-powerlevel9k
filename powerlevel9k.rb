@@ -2,7 +2,7 @@ class Powerlevel9k < Formula
   desc "A badass zsh theme with more power than a normal earthling"
   homepage "https://github.com/bhilburn/powerlevel9k"
   url "https://github.com/bhilburn/powerlevel9k/archive/v0.6.6.tar.gz"
-  sha256 "358c105de7aa5e8109788adf65c08c44e368d418"
+  sha256 "580951e0d13b83bf1e1afd67aa4c109e0a770a13e282904e77ebf8e7416a4461"
   head "https://github.com/bhilburn/powerlevel9k.git"
 
   depends_on :macos => :el_capitan
