@@ -21,4 +21,4 @@ You can also install different versions of p9k (0.6.3 for example) -> `brew inst
 
 However the path to the theme varies if you specify a version.
 
-You have to add `source /usr/local/opt/powerlevel9k@<version>.zsh-theme` depending on the version you specified
+You have to add `source /usr/local/opt/powerlevel9k@<version>.zsh-theme` to your `.zshrc` depending on the version you specified
