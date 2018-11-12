@@ -10,6 +10,7 @@ class Powerlevel9k < Formula
 
   def install
     (var/"log/powerlevel9k").mkpath
+    prefix.install Dir["*"]
   end
 
   def caveats; <<~EOS
