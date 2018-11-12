@@ -1,6 +1,6 @@
 ## Dependencies
-- zsh --5.6 ✔
-- macOS >= 10.11 ✔
+- zsh --5.6
+- macOS >= 10.11
 
 
 ## Installation
