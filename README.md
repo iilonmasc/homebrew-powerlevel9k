@@ -1,3 +1,7 @@
+## About
+
+This is a OSX/macOS [homebrew](https://brew.sh) tap for the [powerlevel9k zsh theme by bhilburn](https://github.com/bhilburn/powerlevel9k)
+
 ## Dependencies
 - zsh --5.1
 
