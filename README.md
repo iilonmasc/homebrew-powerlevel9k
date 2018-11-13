@@ -15,6 +15,7 @@ Afterwards you need to add the theme to your `.zshrc` file, simply add the follo
 
 ## Options
 `--HEAD` Install HEAD version from `bhilburn/powerlevel9k/master`
+
 `--devel` Install `next` version from `bhilburn/powerlevel9k/next`
 
 # Versions
