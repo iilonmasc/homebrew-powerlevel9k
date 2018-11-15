@@ -17,6 +17,10 @@ class Powerlevel9kAT061 < Formula
 
       source #{opt_prefix}/powerlevel9k.zsh-theme
 
+    Alternatively you can run this command to append the line to your .zshrc
+
+      echo "source #{opt_prefix}/powerlevel9k.zsh-theme" >> ~/.zshrc
+
     EOS
   end
 end
