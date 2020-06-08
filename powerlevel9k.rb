@@ -4,7 +4,7 @@ class Powerlevel9k < Formula
   url "https://github.com/bhilburn/powerlevel9k/archive/v0.6.7.tar.gz"
   sha256 "d6e3eaee522a70aa03aa832787e1526aba6419f6347d3e5058137e18cfadb13d"
   head "https://github.com/bhilburn/powerlevel9k.git"
-  devel do
+  head do
     url "https://github.com/bhilburn/powerlevel9k/archive/next.tar.gz"
     version "next"
   end
